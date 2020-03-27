@@ -1,0 +1,46 @@
+header {
+  width: 100%;
+  padding: 0 25px;
+  //height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ebebeb;
+  .headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .leftSide {
+      display: flex;
+      justify-content: space-between;
+      .search {
+        padding-left: 25px;
+      }
+    }
+    .rightSide {
+      .navMenu {
+        list-style-type: none;
+        display: flex;
+        li {
+          padding-left: 35px;
+          button {
+            height: 80px;
+            border: none;
+            background-color: transparent;
+            color: rgb(72, 72, 72);
+            font-weight: 600;
+            font-size: 14px;
+            font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+              Helvetica Neue, sans-serif;
+            //height: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+.logo {
+  width: 35px;
+  height: 35px;
+}

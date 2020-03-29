@@ -1,13 +1,11 @@
 import React from "react";
 import "./header.scss";
-import { Input } from "semantic-ui-react";
 import { Icon } from "semantic-ui-react";
 
-const MyInput = () => (
-  <Input icon="search" iconPosition="left" placeholder="Search..." />
-);
-
-export const CloneHeader = () => {
+export const CloneHeader = ({ query, setQuery }) => {
+  const makeQuery = (e) => {
+    setQuery(e.target.value);
+  };
   return (
     <header>
       <div className="firstRow headerRow">
@@ -16,7 +14,16 @@ export const CloneHeader = () => {
             <img src="./logo.svg" alt="logo" />
           </div>
           <div className="search">
-            <MyInput />.
+            <div className=" ui left icon input">
+              <input
+                placeholder="City"
+                name="text"
+                type="text"
+                value={query || ""}
+                onChange={makeQuery}
+              />
+              <i aria-hidden="true" className="search icon"></i>
+            </div>
           </div>
         </div>
         <div className="rightSide">

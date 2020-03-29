@@ -12,7 +12,7 @@ const CenterPoint = ({ text }) => (
       alignItems: "center",
       justifyContent: "center",
       borderRadius: "100%",
-      transform: "translate(-50%, -50%)"
+      transform: "translate(-50%, -50%)",
     }}
   >
     {text}
@@ -22,7 +22,7 @@ const CenterPoint = ({ text }) => (
 class TestMap extends React.Component {
   static defaultProps = {
     center: { lat: 50.45, lng: 30.52 },
-    zoom: 11
+    zoom: 11,
   };
 
   render() {

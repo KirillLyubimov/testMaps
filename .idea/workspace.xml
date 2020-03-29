@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0d501ab-5c19-4222-9b0d-b4023f835ea1" name="Default Changelist" comment="" />
+    <list default="true" id="f0d501ab-5c19-4222-9b0d-b4023f835ea1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/common/places.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/markerDescrition/markerDescrition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/components/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/carousel/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/carousel/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/mainSection/mainSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/mainSection/mainSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/map.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZaIXT3xpE6NTWgX27hg2gBDBEs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../node_modules/node-sass/bin/node-sass" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -57,6 +74,11 @@
       <workItem from="1585269039553" duration="469000" />
       <workItem from="1585269843969" duration="339000" />
       <workItem from="1585272357794" duration="4596000" />
+      <workItem from="1585400234189" duration="999000" />
+      <workItem from="1585402905655" duration="7397000" />
+      <workItem from="1585429962851" duration="7476000" />
+      <workItem from="1585444730534" duration="604000" />
+      <workItem from="1585490202336" duration="478000" />
     </task>
     <servers />
   </component>
@@ -84,9 +106,20 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="164" y="31" width="1037" height="737" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1585269989789" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1585230443652">
+    <state x="347" y="174" key="run.anything.popup" timestamp="1585420248429">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.28.1366.740@0.28.1366.740" timestamp="1585230443652" />
+    <state x="347" y="174" key="run.anything.popup/0.28.1366.740@0.28.1366.740" timestamp="1585420248429" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../src/common/places.js</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

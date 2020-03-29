@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0d501ab-5c19-4222-9b0d-b4023f835ea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/common/places.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/components/markerDescrition/markerDescrition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/components/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/carousel/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/carousel/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/mainSection/mainSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/mainSection/mainSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +18,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZaIXT3xpE6NTWgX27hg2gBDBEs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,7 +35,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -78,12 +69,20 @@
       <workItem from="1585402905655" duration="7397000" />
       <workItem from="1585429962851" duration="7476000" />
       <workItem from="1585444730534" duration="604000" />
-      <workItem from="1585490202336" duration="478000" />
+      <workItem from="1585490202336" duration="2412000" />
+      <workItem from="1585495242169" duration="25000" />
+      <workItem from="1585495285861" duration="42000" />
+      <workItem from="1585495347221" duration="245000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="460" y="111" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1585269112723">
@@ -102,10 +101,10 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="460" y="161" width="424" height="491" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1585269430436" />
-    <state x="164" y="31" width="1037" height="737" key="SettingsEditor" timestamp="1585269989789">
+    <state x="164" y="31" width="1037" height="737" key="SettingsEditor" timestamp="1585495321864">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="164" y="31" width="1037" height="737" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1585269989789" />
+    <state x="164" y="31" width="1037" height="737" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1585495321864" />
     <state x="347" y="174" key="run.anything.popup" timestamp="1585420248429">
       <screen x="0" y="28" width="1366" height="740" />
     </state>

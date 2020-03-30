@@ -1,7 +1,19 @@
 import React from "react";
 import { MyCarousel } from "../carousel/carousel";
 
-export const MarkerDescription = ({ imgArr, city, title, courses, price }) => {
+export const MarkerDescription = ({
+  imgArr,
+  city,
+  title,
+  courses,
+  price,
+  setMyCenter,
+  myCenter,
+  coord,
+}) => {
+  const changeCenter = () => {
+    setMyCenter(coord);
+  };
   return (
     <>
       <div className="markerPlace">
@@ -11,7 +23,9 @@ export const MarkerDescription = ({ imgArr, city, title, courses, price }) => {
         <div className="markerDescription">
           <div className="flexWrap">
             <h5 className="city">{city}</h5>
-            <h3 className="name">{title}</h3>
+            <h3 className="name" onClick={changeCenter}>
+              {title}
+            </h3>
             <h5>Courses</h5>
             <ul className="courses">
               {courses.map((elem, i) => (

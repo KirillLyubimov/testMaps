@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0d501ab-5c19-4222-9b0d-b4023f835ea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/common/places.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/common/places.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/anotherMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/anotherMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/mainSection/mainSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/mainSection/mainSection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,9 @@
       <workItem from="1585495242169" duration="25000" />
       <workItem from="1585495285861" duration="42000" />
       <workItem from="1585495347221" duration="245000" />
-      <workItem from="1585516456185" duration="82000" />
+      <workItem from="1585516456185" duration="299000" />
+      <workItem from="1585516927510" duration="2255000" />
+      <workItem from="1585564215869" duration="737000" />
     </task>
     <servers />
   </component>
@@ -110,16 +114,5 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="347" y="174" key="run.anything.popup/0.28.1366.740@0.28.1366.740" timestamp="1585420248429" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../src/common/places.js</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

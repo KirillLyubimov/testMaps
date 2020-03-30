@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ExampleMap from "../anotherMap";
+import { ExampleMap } from "../anotherMap";
 import { Radio } from "semantic-ui-react";
 import "./mainSection.scss";
 import { places } from "../../common/places";
@@ -21,6 +21,7 @@ export const MainSection = ({ query }) => {
     setVisible(!visible);
     setBigBasis(!bigBasis);
   };
+  const [myCenter, setMyCenter] = useState({ lat: 50.450515, lng: 30.523006 });
 
   return (
     <section className="main">
@@ -47,10 +48,13 @@ export const MainSection = ({ query }) => {
                 <MarkerDescription
                   key={i + elem.city}
                   city={elem.city}
-                  title={elem.secTitle}
+                  title={elem.title}
                   courses={elem.description.courses}
                   price={elem.price}
                   imgArr={elem.slidesImg}
+                  myCenter={myCenter}
+                  setMyCenter={setMyCenter}
+                  coord={elem.coord}
                 />
               ))}
             {query.length > 0 &&
@@ -70,7 +74,7 @@ export const MainSection = ({ query }) => {
                   <MarkerDescription
                     key={i + elem.city}
                     city={elem.city}
-                    title={elem.secTitle}
+                    title={elem.title}
                     courses={elem.description.courses}
                     price={elem.price}
                     imgArr={elem.slidesImg}
@@ -78,7 +82,7 @@ export const MainSection = ({ query }) => {
                 ))}
           </div>
           <div className={"mapSide sides " + visibility}>
-            <ExampleMap />
+            <ExampleMap myCenter={myCenter} setMyCenter={setMyCenter} />
           </div>
         </div>
       </div>

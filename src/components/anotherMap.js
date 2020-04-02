@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import GoogleMap, { Marker } from "react-maps-google";
 import { controlPosition } from "../common/mapControlPositions";
 import { places } from "../common/places";

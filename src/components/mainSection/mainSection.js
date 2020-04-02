@@ -6,11 +6,6 @@ import { places } from "../../common/places";
 import { MarkerDescription } from "../markerDescrition/markerDescrition";
 
 const MyToggle = () => <Radio toggle={true} defaultChecked={false} />;
-// const newCenter1 = GoogleMap.onCenterChange({ lat: 50.436437, lng: 30.512129 });
-// const newCenter2 = GoogleMap.panTo({
-//   lat: 50.436437,
-//   lng: 30.512129,
-// });
 
 export const MainSection = ({ query }) => {
   const [visible, setVisible] = useState(false);
@@ -78,6 +73,9 @@ export const MainSection = ({ query }) => {
                     courses={elem.description.courses}
                     price={elem.price}
                     imgArr={elem.slidesImg}
+                    myCenter={myCenter}
+                    setMyCenter={setMyCenter}
+                    coord={elem.coord}
                   />
                 ))}
           </div>

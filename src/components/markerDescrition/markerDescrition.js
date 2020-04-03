@@ -20,7 +20,7 @@ export const MarkerDescription = ({
         <div className="picturePart">
           <MyCarousel imgArr={imgArr} />
         </div>
-        <div className="markerDescription">
+        <div className="markerDescription" onClick={changeCenter}>
           <div className="flexWrap">
             <h5 className="city">{city}</h5>
             <h3 className="name" onClick={changeCenter}>

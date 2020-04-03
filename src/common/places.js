@@ -1,9 +1,7 @@
 export const places = [
   {
-    title: "Kiev PowerCode Academy",
     city: "Kiev",
-    secTitle: "PowerCode Academy",
-
+    title: "PowerCode Academy",
     description: {
       courses: ["Front-End", "PHP", "It project management", "Web-design"],
     },
@@ -13,10 +11,8 @@ export const places = [
     coord: { lat: 50.436437, lng: 30.512129 },
   },
   {
-    title: "Zaporozhye PowerCode Academy",
     city: "Zaporozhye",
-    secTitle: "PowerCode Academy",
-
+    title: "PowerCode Academy",
     description: {
       courses: ["Front-End", "QA", "It project management"],
     },

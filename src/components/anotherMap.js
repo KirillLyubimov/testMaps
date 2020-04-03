@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import GoogleMap, { Marker } from "react-maps-google";
 import { controlPosition } from "../common/mapControlPositions";
+import { places } from "../common/places";
 
 export const ExampleMap = ({ myCenter, setMyCenter }) => {
   return (
-    // 50.436437, 30.512129
+
     <GoogleMap
       apiKey=""
       options={{
@@ -19,10 +20,13 @@ export const ExampleMap = ({ myCenter, setMyCenter }) => {
         },
       }}
     >
-      <Marker
+
+      {places.map((elem, i) => (
+        <Marker position={elem.coord} />
+      ))}
+      {/*<Marker
         position={{ lat: 50.436437, lng: 30.512129 }}
         options={{
-          opacity: 1,
           optimized: false,
           title: "myMarker",
           draggable: false,
@@ -37,8 +41,7 @@ export const ExampleMap = ({ myCenter, setMyCenter }) => {
         }}
         // onDragStart={this.markerDragStart}
         // onDragEnd={this.markerDragEnd}
-      />
-      <Marker position={{ lat: 47.816065, lng: 35.170213 }} />
+      />*/}
     </GoogleMap>
   );
 };
